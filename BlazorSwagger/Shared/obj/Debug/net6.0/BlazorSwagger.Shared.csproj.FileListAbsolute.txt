@@ -1,0 +1,12 @@
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\bin\Debug\net6.0\BlazorSwagger.Shared.deps.json
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\bin\Debug\net6.0\BlazorSwagger.Shared.dll
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\bin\Debug\net6.0\BlazorSwagger.Shared.pdb
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.csproj.AssemblyReference.cache
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.AssemblyInfoInputs.cache
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.AssemblyInfo.cs
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.csproj.CoreCompileInputs.cache
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.dll
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\refint\BlazorSwagger.Shared.dll
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\BlazorSwagger.Shared.pdb
+C:\Users\SeanGlover\source\repos\BlazorSwagger\BlazorSwagger\Shared\obj\Debug\net6.0\ref\BlazorSwagger.Shared.dll

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlazorSwagger.Server</name>
+    </assembly>
+    <members>
+        <member name="M:blazorSwagger.Controllers.EmployeesController.Get">
+            <summary>
+            Gets the list of all Employees.
+            </summary>
+            <returns>The list of Employees.</returns>
+        </member>
+        <member name="M:blazorSwagger.Controllers.EmployeesController.Get(System.String)">
+            <summary>
+            Returns an employee searching by id as an integer or string
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET api/Employee
+                int     --> searches the employeeId
+                string  --> searches the Id(MongoDb)
+            </remarks>
+            <param name="id" example="id">The integration property ID. Events related to presentations related to this ID will be returned</param>
+            <returns></returns>
+        </member>
+        <member name="M:blazorSwagger.Controllers.EmployeesController.Post(blazorSwagger.Models.Employee)">
+            <summary>
+            Creates an Employee.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/Employee
+                {        
+                  "firstName": "Mike",
+                  "lastName": "Andrew",
+                  "email": "Mike.Andrew@gmail.com"        
+                }
+            </remarks>
+            <param name="employee"></param>
+            <returns>A newly created employee</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response> 
+        </member>
+    </members>
+</doc>

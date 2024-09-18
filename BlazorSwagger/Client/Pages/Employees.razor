@@ -1,0 +1,45 @@
+﻿@page "/employees"
+@using blazorSwagger.Models
+@using blazorSwagger.Services;
+@using BlazorSwagger.Shared
+@inherits EmployeesBase
+@inject HttpClient Http
+
+<PageTitle>Index</PageTitle>
+
+<h1>Employee List</h1>
+@if (@employees == null) {<div class="spinner"></div>
+}
+else
+{
+    <div class="card-group">
+        @foreach (var name in @names)
+        {
+            <div class="card m-3" style="min-width: 18rem">
+                @name
+            </div>
+        }
+    </div>
+    <div class="card-header">
+        @if (@forecasts != null)
+        {
+            @foreach (var forecast in @forecasts)
+            {
+                <div class="card m-3" style="min-width: 18rem">
+                    @forecast.Summary
+                </div>
+            }
+        }
+    </div>
+}
+@code{
+    private WeatherForecast[]? forecasts;
+    private List<Employee>? employees = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        employees = await Http.GetFromJsonAsync<List<Employee>>("api/Employees");
+    }
+    List<string> names = new List<string>() { "Sean", "Liiana" };
+}
